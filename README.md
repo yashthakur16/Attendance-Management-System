@@ -33,12 +33,61 @@ This project is an Attendance Management System developed using Python. It provi
 
 ## Project Structure
 
+```
+Attendance-Management-System/
+├── .idea/                          # IDE configuration files
+│   ├── .gitignore
+│   ├── .name
+│   ├── Attendance management system.iml
+│   ├── misc.xml
+│   ├── modules.xml
+│   ├── sample_!.iml
+│   └── inspectionProfiles/
+│       └── Project_Default.xml
+├── ImageAttendance/                # Sample images for attendance tracking
+│   ├── bill.jpg
+│   ├── chinmay.jpg
+│   ├── elon musk.jpg
+│   ├── jack.jpg
+│   ├── kshitija.jpg
+│   └── sakshi.jpg
+├── image basic/                    # Basic images
+│   ├── bill.jpg
+│   ├── elon musk.jpg
+│   └── elon test.jpg
+├── __pycache__/                    # Compiled Python files
+│   ├── admin_login.cpython-38.pyc
+│   ├── at.cpython-38.pyc
+│   ├── att_p.cpython-310.pyc
+│   ├── att_p.cpython-38.pyc
+│   ├── attendance_project.cpython-38.pyc
+│   ├── face_track_page.cpython-38.pyc
+│   ├── maths.cpython-310.pyc
+│   ├── maths.cpython-38.pyc
+│   ├── python.cpython-38.pyc
+│   └── student_login.cpython-38.pyc
+├── at.csv                          # CSV file for attendance data
+├── at.py                           # Attendance tracking script
+├── att_p.py                        # Attendance processing script
+├── att_p.ui                        # UI file for attendance processing
+├── attendance_project.py           # Main attendance project script
+├── home_p.py                       # Home page script
+├── home_p.ui                       # UI file for home page
+├── main.py                         # Main entry point of the application
+├── maths.csv                       # CSV file for Maths subject attendance data
+├── maths.py                        # Maths subject script
+├── python.csv                      # CSV file for Python subject attendance data
+├── python.py                       # Python subject script
+└── workspace.xml                   # Workspace configuration file
+
+
 - `main.py`: The main entry point of the application.
 - `at.py`, `att_p.py`, `attendance_project.py`, etc.: Core functionality scripts.
 - `home_p.ui`, `att_p.ui`: UI design files.
 - `*.csv`: CSV files storing attendance data.
 - `ImageAttendance/`: Folder containing sample images for attendance tracking.
 
+```
 ## Dependencies
 
 - Python 3.x
